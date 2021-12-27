@@ -1,0 +1,22 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandrKamlykov/snippets.git"
+  },
+  "author": "Aleksandr Kamlykov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandrKamlykov/snippets/issues"
+  },
+  "homepage": "https://github.com/AleksandrKamlykov/snippets#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
