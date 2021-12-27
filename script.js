@@ -71,8 +71,7 @@ function game() {
             numberLetter = numberLetter + 1;
             let targets = [...document.querySelectorAll('.target> span')]
             targets.map((elem, i) => {
-                if (i <= numberLetter) {
-                    // console.log(elem[]);
+                if (i <= (numberLetter - 1)) {
                     elem.style.color = 'transparent'
                 }
             })
