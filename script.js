@@ -50,8 +50,10 @@ function game() {
 
     function onInput(letter) {
         if (focusText === null) {
-            const newFocus = wordsArr.reverse().filter(event => event.word[0] === letter);
-            focusText = newFocus[0].word;
+            const newFocus = wordsArr.reverse().find(event => {
+                return event.word[0] === letter
+            });
+            focusText = newFocus.word;
             onTarget(focusText)
             numberLetter += 1;
             return
