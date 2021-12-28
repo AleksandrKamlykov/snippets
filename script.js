@@ -62,7 +62,7 @@ function game() {
             focusText = null;
             numberLetter = 0;
             count = count + 1
-            if (count === 5) {
+            if (count === 2) {
                 nextLevel()
             }
             return
@@ -145,6 +145,7 @@ function nextLevel() {
 function gameOver() {
     clearInterval(toLose)
     clearInterval(startLevel)
+    levelWords = []
     wordsArr = []
     const gameOver = document.createElement('h2')
     gameOver.innerHTML = 'Game Over'
