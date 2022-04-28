@@ -2,4 +2,4 @@
 
 This app for training skills
 
-[demo](https://github.com/AleksandrKamlykov/snippets)
+[demo](https://aleksandrkamlykov.github.io/snippets/)
